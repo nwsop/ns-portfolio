@@ -2,8 +2,14 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="lg:float-left md:float-none bg-black text-white lg:w-1/2 md:w-100 sm:w-100 min-h-screen mt">
-           <h1 className='text-5xl text-center pt-5 underline'>About Me</h1>
+        <div className="text-white text-center h-96">
+           <h1 className='text-5xl text-center'>About</h1>
+
+           <br></br>
+
+           <p className='text-3xl'>My name is Nathaniel Sop, I graduated college in May 2021, during my time at college, I worked as 
+               a Student Web developer,
+           </p>
         </div>
     )
 }

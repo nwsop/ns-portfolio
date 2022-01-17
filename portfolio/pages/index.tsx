@@ -9,34 +9,15 @@ import Skills from "../components/Skills"
 
 export default function Home() {
   return (
-    <div className="h-screen bg-violet ">
+    <div className="h-screen bg-black">
       { /* Navbar */ }
-      <div className="static border-b-2 invert">
+      <div className="static">
         <Navbar />
       </div>
 
-      { /* Main Sections */ }
-      <div>
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <About />
-        </div>
+      <div className='bg-gray-900 w-100 h-1/2'>
 
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Projects />
-        </div>
-
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Education />
-        </div>
-
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Experience />
-        </div>
       </div>
-
-      <div className="">
-          <Skills />
-        </div>
 
     </div>
   )

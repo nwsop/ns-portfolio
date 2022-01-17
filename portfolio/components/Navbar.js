@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Navbar = () => {
     return (
-        <nav className="hover:shadow-inner shadow-2xl flex items-center justify-between flex-wrap bg-n-tan p-7">
+        <nav className="shadow-2xl flex items-center justify-between flex-wrap bg-gradient-to-b from bg-n-tan to-slate-500 p-7">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <span className="font-semibold text-5xl tracking-tight mr-10 hover:text-black">N \ S</span>
             </div>
@@ -16,10 +16,10 @@ export const Navbar = () => {
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div className="text-xl lg:flex-grow">
                     <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline mr-4">About Me</a>
-                    <a href="#responsive-header" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline mr-4">Projects</a>
-                    <a href="#responsive-header" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline mr-4">Education</a>
-                    <a href="#responsive-header" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline">Experience</a>
-                    <a href="#responsive-header" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline">Skills</a>
+                    <a href="#" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline mr-4">Projects</a>
+                    <a href="#" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline mr-4">Education</a>
+                    <a href="#" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline">Experience</a>
+                    <a href="#" className="block mt-4 ml-6 lg:inline-block lg:mt-0 text-black-200 hover:text-white hover:underline">Skills</a>
                 </div>
             </div>
         </nav>
