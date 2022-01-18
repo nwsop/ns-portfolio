@@ -1,43 +1,38 @@
 import Head from 'next/head'
 import Navbar from "../components/Navbar"
-import About from "../components/About"
-import Projects from "../components/Projects"
-import Education from "../components/Education"
+import Hero from "../components/Hero"
+import Work from "../components/Work"
 import Experience from "../components/Experience"
+import Links from "../components/Links"
 import Skills from "../components/Skills"
-
 
 export default function Home() {
   return (
-    <div className="h-screen bg-violet ">
-      { /* Navbar */ }
-      <div className="static border-b-2 invert">
-        <Navbar />
-      </div>
+    <html>
+        <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/> 
+        </head>
+        <body className='bg-body text-white font-poppins'>
+          <div>
+            <Navbar />
+            <Hero />
+            <div id="work">
+            <Work />
+            </div>
 
-      { /* Main Sections */ }
-      <div>
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <About />
-        </div>
-
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Projects />
-        </div>
-
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Education />
-        </div>
-
-        <div className="lg:drop-shadow-2xl shadow-red-800 md:shadow-none">
-          <Experience />
-        </div>
-      </div>
-
-      <div className="">
-          <Skills />
-        </div>
-
-    </div>
+            <div id="experience">
+            <Experience />
+            </div>
+            <div id="skills">
+            <Skills />
+            </div>
+            <div id="links">
+            <Links />
+            </div>
+          </div>
+        </body>
+    </html>
   )
 }
