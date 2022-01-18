@@ -5,7 +5,7 @@ const Skills = () => {
         <div>
             <div class="container mt-64 flex flex-wrap justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section className="w-full">
-				<h2 id="skills" class="secondary-title text-8xl font-bold">Skills</h2>
+				<h2 id="skills" class="secondary-title text-6xl md:text-7xl lg:text-8xl font-bold">Skills</h2>
 
 				<div className='flex flex-wrap grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full  ml-7'>
                 <div className="space-y-2 my-8 mb-64 w-1/2">
