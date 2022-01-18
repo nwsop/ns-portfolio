@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 
+import ysu from "../public/img/ysu.jpeg";
+import drund from "../public/img/drund.jpg"
+
 
 const Experience = () => {
     return (
@@ -16,7 +19,7 @@ const Experience = () => {
 
 						<div class="mb-6 lg:mb-0">
 						<Image
-							src="/../public/img/drund.jpg"
+							src={drund}
 							alt="Landscape picture"
 							width={250}
 							height={250}
@@ -59,7 +62,7 @@ const Experience = () => {
 
 						<div class="mb-6 lg:mb-0">
 						<Image
-							src="/../public/img/ysu.jpeg"
+							src={ysu}
 							alt="Landscape picture"
 							width={250}
 							height={250}

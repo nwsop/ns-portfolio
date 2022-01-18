@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+import backing from "../public/img/face.jpg"
+
 const Hero = () => {
     return (
         <div className="container mt-16 flex justify-between items-center mx-auto px-8 w-full">
@@ -50,7 +52,7 @@ const Hero = () => {
                 </div>
                 <div className='hidden md:hidden lg:block absolute pointer-events-none'>
                 <Image className='opacity-10 hidden md:hidden lg:block rounded-xl pr-40'
-			    src="/../public/img/face.jpg"
+			    src={backing}
 				alt="Picture of a face"
 				width={1500}
 				height={800}
