@@ -10,7 +10,7 @@ const Experience = () => {
         <div>
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 class="secondary-title text-8xl font-bold">Experience</h2>
+				<h2 class="secondary-title text-6xl md:text-7xl lg:text-8xl font-bold break-normal">Experience</h2>
 				<p class="section-paragraph text-xl">These are my most recent positions.</p>
 
 				<div class="space-y-12 my-16">
