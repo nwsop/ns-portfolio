@@ -42,12 +42,12 @@ const Experience = () => {
 
 							<p className='text-2xl'>Responsibilities:</p>
 							<ul className='decoration-transparent'>
-								<li>> Write new Selenium tests to improve the reach of the Selenium suite</li>
-								<li>> Fix Errors and Failures within the Selenium Infrastructure</li>
-								<li>> Work with Team Leads on builds needing tested</li>
-								<li>> Locally test Front End and iOS branches for acceptance</li>
-								<li>> Stability Test both iOS and Android Applications and report issues found</li>
-								<li>> Upgraded the Selenium Suite from Python 2 to Python 3</li>
+								<li>&gt; Write new Selenium tests to improve the reach of the Selenium suite</li>
+								<li>&gt; Fix Errors and Failures within the Selenium Infrastructure</li>
+								<li>&gt; Work with Team Leads on builds needing tested</li>
+								<li>&gt; Locally test Front End and iOS branches for acceptance</li>
+								<li>&gt; Stability Test both iOS and Android Applications and report issues found</li>
+								<li>&gt; Upgraded the Selenium Suite from Python 2 to Python 3</li>
 
 							</ul>
 						</div>
@@ -83,12 +83,12 @@ const Experience = () => {
 
 							<p className='text-2xl'>Responsibilities:</p>
 							<ul className='decoration-transparent'>
-								<li>> Update Web page content for departments using Drupal CMS</li>
-								<li>> Assist with migrating and formatting pages in Drupal</li>
-								<li>> Format photographs and implement on Drupal Sites</li>
-								<li>> Create Drupal Web forms, as needed</li>
-								<li>> Provide support for campus web editors with sites in Drupal </li>
-								<li>> Work closely with Web Developers on projects </li>
+								<li>&gt; Update Web page content for departments using Drupal CMS</li>
+								<li>&gt; Assist with migrating and formatting pages in Drupal</li>
+								<li>&gt; Format photographs and implement on Drupal Sites</li>
+								<li>&gt; Create Drupal Web forms, as needed</li>
+								<li>&gt; Provide support for campus web editors with sites in Drupal </li>
+								<li>&gt; Work closely with Web Developers on projects </li>
 
 							</ul>
 						</div>
