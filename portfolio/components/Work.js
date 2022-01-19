@@ -51,6 +51,27 @@ const Work = () => {
 					</div>
 				</div>
 
+                <div className="space-y-12 my-16">
+					<div className="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+
+						<div className="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                            <h3 className="text-white text-3xl font-semibold">NS Portfolio</h3>
+							<div className="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div className="badge">HTML</div>
+								<div className="badge">CSS</div>
+								<div className="badge">Tailwind CSS</div>
+								<div className="badge">Next.js</div>
+							</div>
+
+							<p className="text-secondary text-xl">This webpage utilizes Next.js and TailwindCSS, Tailwind was the main tech used to build the site while Next.js was more of a supporting act so I could utilize components.</p>
+						
+                            <a href="https://github.com/nwsop/ns-portfolio" target="_blank"><button className='mt-10 px-6 text-lg w-full py-4 bg-theme font-bold hover:bg-orange-500 rounded-3xl'>Check It Out</button></a>   
+						
+                        </div>
+					</div>
+				</div>
+
 			</section>
 		</div>
         </div>
